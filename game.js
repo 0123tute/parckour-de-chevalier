@@ -7,8 +7,8 @@ let win
 let level
 function preload(){
 playerSheet = loadImage('sprites/knight.png');
-worldSheet = loadImage("Sprites/world_tileset.png")
-slimeGSheet = loadImage("Sprites/slime_green.png")
+worldSheet = loadImage("sprites/world_tileset.png")
+slimeGSheet = loadImage("sprites/slime_green.png")
 
 
 player = new Sprite(30, 1108, 14, 13)
