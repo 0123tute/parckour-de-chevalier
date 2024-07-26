@@ -149,4 +149,7 @@ function draw(){
 		player.x = 30
 		win.y = 1000
 		}}
+	textSize(40)
+		world.realTime
+		text('Temps: ' + world.realTime, 30, 30);
 }
